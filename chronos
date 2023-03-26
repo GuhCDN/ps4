@@ -1,0 +1,123 @@
+<!DOCTYPE html><html dir=3D"ltr" lang=3D"en"><head><meta http-equiv=3D"Cont=
+ent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" t=
+ype=3D"text/css" href=3D"cid:css-7f982284-c946-4dfd-ac70-9dae75952061@mhtml=
+.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5b1963=
+be-ff56-4865-90b3-8aab830ab39b@mhtml.blink" />
+
+<title>New Tab</title>
+<link rel=3D"stylesheet" href=3D"chrome://resources/css/text_defaults.css">
+
+
+</head>
+<body>
+<div id=3D"enterprise-info" visible=3D"false">
+  <img src=3D"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5=
+vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgZmlsbD0iIzYyNjI2MiI+PHBhdG=
+ggZD0iTTAgMGg0OHY0OEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0yNCAxNFY2SDR2MzZoN=
+DBWMTRIMjR6TTEyIDM4SDh2LTRoNHY0em0wLThIOHYtNGg0djR6bTAtOEg4di00aDR2NHptMC04=
+SDh2LTRoNHY0em04IDI0aC00di00aDR2NHptMC04aC00di00aDR2NHptMC04aC00di00aDR2NHp=
+tMC04aC00di00aDR2NHptMjAgMjRIMjR2LTRoNHYtNGgtNHYtNGg0di00aC00di00aDE2djIwem=
+0tNC0xNmgtNHY0aDR2LTR6bTAgOGgtNHY0aDR2LTR6Ii8+PC9zdmc+">
+  <span id=3D"enterprise-info-message"></span>
+  <a id=3D"enterprise-info-hint-link" href=3D"chrome://newtab/">
+   =20
+  </a>
+</div>
+<div class=3D"content">
+  <h1>You're browsing as a Guest</h1>
+  <p>
+    <span>Pages you view in this window won't appear in the browser history=
+ and they won't leave other traces, like cookies, on the computer after you=
+ sign out. Files you download and bookmarks you create won't be preserved.<=
+/span>
+    <a href=3D"https://support.google.com/chromebook/?p=3Dchromebook_guest"=
+>Learn more</a>
+  </p>
+</div>
+
+
+</body></html>
+------MultipartBoundary--qiV8VIYIegeTLuRjUejUCzJKVRViaHZDa0fcN9m7L8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7f982284-c946-4dfd-ac70-9dae75952061@mhtml.blink
+
+@charset "utf-8";
+
+body { -webkit-font-smoothing: antialiased; font-size: 85%; }
+
+@media (prefers-color-scheme: dark) {
+  html { background: rgb(53, 54, 58); color: rgb(232, 234, 237); }
+}
+
+h1 { font-size: 200%; font-weight: 400; margin-bottom: 0.77em; }
+
+p { line-height: 1.5; margin: 0.588em 0px; text-align: start; }
+
+a { color: rgb(51, 103, 214); }
+
+a:hover { text-decoration: underline; }
+
+.learn-more-button { color: rgb(66, 133, 244); display: inline-block; font-=
+size: 92.8%; font-weight: 500; margin-top: 1.98em; padding: 10.5px 12px; te=
+xt-decoration: none; }
+
+@media (prefers-color-scheme: dark) {
+  :-webkit-any(a, .learn-more-button) { color: rgb(138, 180, 248); }
+}
+
+.content { box-sizing: border-box; margin: 3.5em auto 0px; max-width: 480px=
+; min-width: 240px; padding: 30px 35px; text-align: center; }
+
+html[hascustombackground=3D"true"] .content { border-radius: 2px; box-shado=
+w: rgba(0, 0, 0, 0.4) 0px 4px 6px 1px; }
+
+.content > span { display: block; }
+
+@media (max-width: 700px) {
+  body { margin: 1em 2em 2em; }
+}
+
+@media (max-width: 400px) {
+  body { margin: 3em 1.5em 2em; }
+  .content { padding: 16px 8px; }
+}
+
+@media (max-height: 480px) and (max-width: 400px) {
+  .content { margin: auto; }
+}
+------MultipartBoundary--qiV8VIYIegeTLuRjUejUCzJKVRViaHZDa0fcN9m7L8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5b1963be-ff56-4865-90b3-8aab830ab39b@mhtml.blink
+
+@charset "utf-8";
+
+#enterprise-info { background-color: rgb(250, 245, 202); border: 2px solid =
+rgb(250, 245, 202); border-radius: 2px; box-sizing: border-box; margin-bott=
+om: -43px; margin-left: auto; margin-right: auto; max-width: 640px; padding=
+: 3px 8px 7px; }
+
+#enterprise-info[visible=3D"false"] { display: none; }
+
+#enterprise-info img { height: 18px; margin-inline-end: 4px; position: rela=
+tive; top: 4px; width: 18px; }
+
+@media (max-height: 480px) and (max-width: 400px) {
+  #enterprise-info { margin-bottom: 1em; }
+}
+
+@media (max-width: 400px) {
+  #enterprise-info { margin-top: -2em; }
+}
+------MultipartBoundary--qiV8VIYIegeTLuRjUejUCzJKVRViaHZDa0fcN9m7L8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome://resources/css/text_defaults.css
+
+@charset "utf-8";
+
+body { font-family: Roboto, sans-serif; font-size: 75%; }
+
+button { font-family: Roboto, sans-serif; }
+------MultipartBoundary--qiV8VIYIegeTLuRjUejUCzJKVRViaHZDa0fcN9m7L8------
